@@ -8,3 +8,4 @@ It will do stuff like:
  - Update different repos as necessary
  - Open other applications as necessary
 
+This is currently for Mac OS X
