@@ -23,3 +23,16 @@ for site in "${SITES[@]}"
 do
   open -a "Google Chrome" $site
 done
+
+# Open up required applications
+INTELLIJ="/Applications/IntelliJ IDEA 12.app/Contents/MacOS/idea"
+GITX="/Applications/GitX.app/Contents/MacOS/GitX"
+
+APPS=( $INTELLIJ $GITX )
+
+echo "Opening applications..."
+for app in "${APPS[@]}"
+do
+  . $app
+done
+
