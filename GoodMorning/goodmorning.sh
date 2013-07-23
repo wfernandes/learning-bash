@@ -33,6 +33,6 @@ APPS=( $INTELLIJ $GITX )
 echo "Opening applications..."
 for app in "${APPS[@]}"
 do
-  . $app
+  open $app
 done
 
